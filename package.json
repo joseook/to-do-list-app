@@ -1,0 +1,16 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "To-Do List App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["electron", "todo", "app"],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.0"
+  }
+}
