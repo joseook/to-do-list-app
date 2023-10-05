@@ -1,60 +1,86 @@
-### To-Do List Application
 
+# To-Do List Application
 
-- Project Description
+This is a user-friendly tool designed to help users manage their daily tasks efficiently. The application is built using Electron, HTML, CSS, and JavaScript. It offers features such as adding tasks with timestamps, marking tasks as completed, and deleting tasks with a simple click.
 
-![todolist](https://github.com/joseook/to-do-list-app/assets/126371426/8cad61d6-9a7a-4aae-abb7-d2ce44fe3118)
+![Screenshot](./src/img/screenshots/todolist.png)
 
-The To-Do List Application is a user-friendly tool designed to help users manage their daily tasks efficiently. With a sleek and intuitive interface, users can easily add, mark as completed, and delete tasks. The application also provides a timestamp for each task, allowing users to track when they added a particular task. With its responsive design, the application is accessible on various devices, ensuring that users can manage their tasks on the go.
+## Demo
 
-### Features
+- See a live demo of the To-Do List Application [here](./src/img/screenshots/gif/todolistapp.gif).
 
-Add new tasks with a timestamp.
-Mark tasks as completed with a visual indicator.
-Delete tasks with a simple click.
-Responsive design for mobile and desktop usage.
+## Contents
 
-### Technologies Used
+- [Application Structure](#application-structure)
+- [How to Use](#how-to-use)
+- [Customization](#customization)
+- [License](#license)
 
-Electron: Used to create a cross-platform desktop application.
-HTML/CSS: Utilized for crafting a responsive and visually appealing user interface.
-JavaScript: Powers the core functionality of the application, from adding tasks to various interactive features.
+## Application Structure
 
-### How to Use
+- The application structure is organized as follows:
 
-- Clone the repository to your local machine.
+to-do-list-app/
+│
+├── src/                  # Main folder
+│   ├── img/              # All images
+│   │   ├── screenshots/ # Images of the project
+│   │   │   └── gif/     # GIFs of the project
+│   │
+│   ├── js/              
+│   │   └── script.js    # Script of the project
+│   │
+│   ├── style/           
+│   │   └── index.css    # Style of the project
+│   │
+│   └── index.html       # Main body of the project
+│
+├── .gitignore
+└── main.js    
 
-![part1](https://github.com/joseook/to-do-list-app/assets/126371426/ecf36475-6cc8-4e66-a9e8-441fd1f88ac6)
+## How to Use
 
+1. Clone this repository to your computer:
 
-- Navigate to the project folder.
+   ```bash
+   git clone https://github.com/joseook/to-do-list-app.git
+   ```
 
-![part2](https://github.com/joseook/to-do-list-app/assets/126371426/5f795d79-09ed-4652-b6eb-82c55967c9af)
+2. Navigate to the project folder:
 
-- Download and install the necessary dependencies.
+   ```bash
+   cd to-do-list-app
+   ```
 
-![part3](https://github.com/joseook/to-do-list-app/assets/126371426/c4dc6ef6-5d50-4348-98b7-e5eb9524f3d4)
+3. Open the `index.html` file in your web browser to view the To-Do List Application.
 
-- Start the Electron application.
+## Customization
 
-![part4](https://github.com/joseook/to-do-list-app/assets/126371426/2ff5fe48-0d4b-46a8-b186-be50c045a5d5)
+- You can customize the application in the following ways:
 
+### Content
 
-### Enjoy managing your tasks! Add tasks, mark them as completed, and organize your daily activities with ease.
-GIF
+- Open the `index.html` file and modify the content as needed.
+- Add or remove features or sections as desired.
 
-![todolistgif](https://github.com/joseook/to-do-list-app/assets/126371426/60f88945-1a36-486d-b124-2e0a5dcdf05f)
+### Styles
 
+- Customize the application's style by editing the `style.css` file. You can change colors, fonts, sizes, and more to suit your requirements.
 
-### Contribution
-- If you're interested in enhancing the features of this To-Do List Application or have some great ideas to improve it, please feel free to open a pull request. We appreciate and welcome all contributions!
+### Images
 
-### License
-- This project is licensed under the MIT License. Refer to the LICENSE file for more details.
-<br>
+- Replace the images in the `img/` folder with your own images. Ensure to keep the file names and update references in the HTML files if necessary.
 
-<div align = "center">
+### Task Management
 
-![7c542823f463295feaa59ed42ad47207](https://github.com/joseook/to-do-list-app/assets/126371426/5d3e4f72-607b-4185-963f-44c76b4ead3f)
-  
-</div>
+- The application is set up to manage tasks efficiently. To add more features or modify existing ones, refer to the `script.js` file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Notes
+
+This project is for both personal and professional use. Enhance your productivity by managing your tasks efficiently.
+
+--- 
