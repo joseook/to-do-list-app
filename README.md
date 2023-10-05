@@ -20,23 +20,16 @@ This is a user-friendly tool designed to help users manage their daily tasks eff
 
 - The application structure is organized as follows:
 
-to-do-list-app/
-│
-├── src/                  # Main folder
-│   ├── img/              # All images
-│   │   ├── screenshots/ # Images of the project
-│   │   │   └── gif/     # GIFs of the project
-│   │
-│   ├── js/              
-│   │   └── script.js    # Script of the project
-│   │
-│   ├── style/           
-│   │   └── index.css    # Style of the project
-│   │
-│   └── index.html       # Main body of the project
-│
-├── .gitignore
-└── main.js    
+- `src/index.html`: Contains the main body of the To-Do List Application.
+- `src/style/`: Contains the application's style files.
+    - index.css: Main style of the project.
+- `src/js/`: Contains JavaScript scripts for the core functionalities and interactive features.
+    - `script.js``: Main script of the project.
+- `src/img/`: Folder that should contain all the images used in the application.
+- `src/img/screenshots/`: Folder that contains images of the project.
+    - `gif/`: Folder that contains GIFs of the project.
+- `.gitignore`: Git ignore file.
+- `main.js`: Main script of the project.
 
 ## How to Use
 
